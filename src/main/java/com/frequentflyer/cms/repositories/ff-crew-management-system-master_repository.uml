@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="__0ay0Lu5EeyMGLU9mLUo6Q" name="ff_crew_management_system_master_repository">
+    <eAnnotations xmi:id="_AHh8ELu6EeyMGLU9mLUo6Q" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_AHh8Ebu6EeyMGLU9mLUo6Q" source="codegen">
+        <details xmi:id="_AHh8Eru6EeyMGLU9mLUo6Q" key="codegenDirectory" value="/ff-crew-management-system-master/src/main/java"/>
+        <details xmi:id="_Aq5u4Lu6EeyMGLU9mLUo6Q" key="AssociatedSourceCode" value="/ff-crew-management-system-master/src/main/java/com/frequentflyer/cms/repositories/AirplaneRepository.java;4097093759/1;/ff-crew-management-system-master/src/main/java/com/frequentflyer/cms/repositories/AirplaneTypeRepository.java;2812845161/1;/ff-crew-management-system-master/src/main/java/com/frequentflyer/cms/repositories/CrewRepository.java;1438095415/1;/ff-crew-management-system-master/src/main/java/com/frequentflyer/cms/repositories/RouteRepository.java;789933842/1;/ff-crew-management-system-master/src/main/java/com/frequentflyer/cms/repositories/ScheduledRouteRepository.java;2568220040/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_AVBlgLu6EeyMGLU9mLUo6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_AVCMkLu6EeyMGLU9mLUo6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_AVCMkbu6EeyMGLU9mLUo6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_AVCMkru6EeyMGLU9mLUo6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_AVCMk7u6EeyMGLU9mLUo6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_AVCMlLu6EeyMGLU9mLUo6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_AVCMlbu6EeyMGLU9mLUo6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_AVCzoLu6EeyMGLU9mLUo6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_AVDasLu6EeyMGLU9mLUo6Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ATbDALu6EeyMGLU9mLUo6Q" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ATbqELu6EeyMGLU9mLUo6Q" name="frequentflyer">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ATcRILu6EeyMGLU9mLUo6Q" name="cms">
+          <packagedElement xmi:type="uml:Package" xmi:id="_AThwsLu6EeyMGLU9mLUo6Q" name="models">
+            <packagedElement xmi:type="uml:Class" xmi:id="_AZEYALu6EeyMGLU9mLUo6Q" name="Airplane"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_AZMT0Lu6EeyMGLU9mLUo6Q" name="AirplaneType"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_AZRzYLu6EeyMGLU9mLUo6Q" name="Crew"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_AZaWQLu6EeyMGLU9mLUo6Q" name="Route"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_AZensLu6EeyMGLU9mLUo6Q" name="ScheduledRoute"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_ATpFcLu6EeyMGLU9mLUo6Q" name="repositories">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_AVAXYLu6EeyMGLU9mLUo6Q" name="AirplaneRepository">
+              <ownedComment xmi:id="_AZ43YLu6EeyMGLU9mLUo6Q">
+                <body>&#xD;
+Repository for handing airplane database operations&#xD;
+&#xD;
+@author Sasa Radovanovic&#xD;
+ *</body>
+              </ownedComment>
+              <generalization xmi:id="_AZjgMLu6EeyMGLU9mLUo6Q" general="_AZDJ4Lu6EeyMGLU9mLUo6Q"/>
+              <ownedOperation xmi:id="_AVEBwLu6EeyMGLU9mLUo6Q" name="findByRegistrationLike">
+                <ownedParameter xmi:id="_AVEBwbu6EeyMGLU9mLUo6Q" name="registration">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZl8cLu6EeyMGLU9mLUo6Q" type="_AZEYALu6EeyMGLU9mLUo6Q" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AVF28Lu6EeyMGLU9mLUo6Q" name="findById">
+                <ownedParameter xmi:id="_AVF28bu6EeyMGLU9mLUo6Q" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZl8cbu6EeyMGLU9mLUo6Q" type="_AZEYALu6EeyMGLU9mLUo6Q" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_AVITMLu6EeyMGLU9mLUo6Q" name="AirplaneTypeRepository">
+              <ownedComment xmi:id="_AZ43Ybu6EeyMGLU9mLUo6Q">
+                <body>&#xD;
+Repository for handing airplane types&#xD;
+&#xD;
+@author Sasa Radovanovic&#xD;
+ *</body>
+              </ownedComment>
+              <generalization xmi:id="_AZmjgLu6EeyMGLU9mLUo6Q" general="_AZDJ4Lu6EeyMGLU9mLUo6Q"/>
+              <ownedOperation xmi:id="_AVaAALu6EeyMGLU9mLUo6Q" name="findByManufacturer">
+                <ownedParameter xmi:id="_AVaAAbu6EeyMGLU9mLUo6Q" name="manufacturer">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AVanELu6EeyMGLU9mLUo6Q" type="_AZMT0Lu6EeyMGLU9mLUo6Q" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AVanEbu6EeyMGLU9mLUo6Q" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AVb1MLu6EeyMGLU9mLUo6Q" name="findByType">
+                <ownedParameter xmi:id="_AVb1Mbu6EeyMGLU9mLUo6Q" name="type">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZnKkbu6EeyMGLU9mLUo6Q" type="_AZMT0Lu6EeyMGLU9mLUo6Q" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AVdqYLu6EeyMGLU9mLUo6Q" name="findByTypeAndManufacturer">
+                <ownedParameter xmi:id="_AVdqYbu6EeyMGLU9mLUo6Q" name="type">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AVdqYru6EeyMGLU9mLUo6Q" name="manufacturer">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZnxoLu6EeyMGLU9mLUo6Q" type="_AZMT0Lu6EeyMGLU9mLUo6Q" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AVe4gLu6EeyMGLU9mLUo6Q" name="findById">
+                <ownedParameter xmi:id="_AVe4gbu6EeyMGLU9mLUo6Q" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZnxobu6EeyMGLU9mLUo6Q" type="_AZMT0Lu6EeyMGLU9mLUo6Q" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_AVii4Lu6EeyMGLU9mLUo6Q" name="CrewRepository">
+              <ownedComment xmi:id="_AZ5ecLu6EeyMGLU9mLUo6Q">
+                <body>&#xD;
+Repository for handing crew operations&#xD;
+&#xD;
+@author Sasa Radovanovic&#xD;
+ *</body>
+              </ownedComment>
+              <generalization xmi:id="_AZnxoru6EeyMGLU9mLUo6Q" general="_AZDJ4Lu6EeyMGLU9mLUo6Q"/>
+              <ownedOperation xmi:id="_AVk_ILu6EeyMGLU9mLUo6Q" name="findByFirstNameLike" visibility="package">
+                <ownedParameter xmi:id="_AVk_Ibu6EeyMGLU9mLUo6Q" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AVmNQLu6EeyMGLU9mLUo6Q" type="_AZRzYLu6EeyMGLU9mLUo6Q" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AVm0ULu6EeyMGLU9mLUo6Q" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AVoCcLu6EeyMGLU9mLUo6Q" name="findByLastNameLike" visibility="package">
+                <ownedParameter xmi:id="_AVoCcru6EeyMGLU9mLUo6Q" type="_AZRzYLu6EeyMGLU9mLUo6Q" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AVoCc7u6EeyMGLU9mLUo6Q" value="*"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AVoCcbu6EeyMGLU9mLUo6Q" name="lastName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AVpQkLu6EeyMGLU9mLUo6Q" name="findByCrewType">
+                <ownedParameter xmi:id="_AVpQkbu6EeyMGLU9mLUo6Q" name="crewType">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AVpQkru6EeyMGLU9mLUo6Q" type="_AZRzYLu6EeyMGLU9mLUo6Q" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AVp3oLu6EeyMGLU9mLUo6Q" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AVqesLu6EeyMGLU9mLUo6Q" name="findByCountryOfOriginLike">
+                <ownedParameter xmi:id="_AVqesbu6EeyMGLU9mLUo6Q" name="countryOfOrigin">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AVqesru6EeyMGLU9mLUo6Q" type="_AZRzYLu6EeyMGLU9mLUo6Q" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AVqes7u6EeyMGLU9mLUo6Q" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AVrFwLu6EeyMGLU9mLUo6Q" name="findByUsername">
+                <ownedParameter xmi:id="_AVrFwbu6EeyMGLU9mLUo6Q" name="username">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZo_wLu6EeyMGLU9mLUo6Q" type="_AZRzYLu6EeyMGLU9mLUo6Q" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AVuJELu6EeyMGLU9mLUo6Q" name="countByCrewType">
+                <ownedParameter xmi:id="_AVuJEbu6EeyMGLU9mLUo6Q" name="type">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AVuwILu6EeyMGLU9mLUo6Q" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AVvXMLu6EeyMGLU9mLUo6Q" name="findById">
+                <ownedParameter xmi:id="_AVvXMbu6EeyMGLU9mLUo6Q" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZvtcru6EeyMGLU9mLUo6Q" type="_AZRzYLu6EeyMGLU9mLUo6Q" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AZpm0Lu6EeyMGLU9mLUo6Q" name="findAllByCrewType">
+                <ownedParameter xmi:id="_AZpm0bu6EeyMGLU9mLUo6Q" name="type">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZpm0ru6EeyMGLU9mLUo6Q" name="pageable" type="_AZP-Mbu6EeyMGLU9mLUo6Q"/>
+                <ownedParameter xmi:id="_AZqN4bu6EeyMGLU9mLUo6Q" type="_AZPXIbu6EeyMGLU9mLUo6Q" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AZq08Lu6EeyMGLU9mLUo6Q" name="findAllByCrewTypeAndFirstNameLike">
+                <ownedParameter xmi:id="_AZq08bu6EeyMGLU9mLUo6Q" name="type">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZrcALu6EeyMGLU9mLUo6Q" name="firstName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZrcAbu6EeyMGLU9mLUo6Q" name="pageable" type="_AZP-Mbu6EeyMGLU9mLUo6Q"/>
+                <ownedParameter xmi:id="_AZsDEbu6EeyMGLU9mLUo6Q" type="_AZPXIbu6EeyMGLU9mLUo6Q" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AZsqILu6EeyMGLU9mLUo6Q" name="findAllByCrewTypeAndLastNameLike">
+                <ownedParameter xmi:id="_AZsqIbu6EeyMGLU9mLUo6Q" name="type">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZsqIru6EeyMGLU9mLUo6Q" name="lastName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZtRMLu6EeyMGLU9mLUo6Q" name="pageable" type="_AZP-Mbu6EeyMGLU9mLUo6Q"/>
+                <ownedParameter xmi:id="_AZt4Qbu6EeyMGLU9mLUo6Q" type="_AZPXIbu6EeyMGLU9mLUo6Q" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AZufULu6EeyMGLU9mLUo6Q" name="findAllByCrewTypeAndCompanyIdLike">
+                <ownedParameter xmi:id="_AZufUbu6EeyMGLU9mLUo6Q" name="type">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZvGYLu6EeyMGLU9mLUo6Q" name="companyId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZvGYbu6EeyMGLU9mLUo6Q" name="pageable" type="_AZP-Mbu6EeyMGLU9mLUo6Q"/>
+                <ownedParameter xmi:id="_AZvtcbu6EeyMGLU9mLUo6Q" type="_AZPXIbu6EeyMGLU9mLUo6Q" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AZwUgLu6EeyMGLU9mLUo6Q" name="findAllById">
+                <ownedParameter xmi:id="_AZwUgbu6EeyMGLU9mLUo6Q" name="ids" type="_AZNh8Lu6EeyMGLU9mLUo6Q"/>
+                <ownedParameter xmi:id="_AZwUgru6EeyMGLU9mLUo6Q" type="_AZRzYLu6EeyMGLU9mLUo6Q" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AZwUg7u6EeyMGLU9mLUo6Q" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_AV2r8Lu6EeyMGLU9mLUo6Q" name="RouteRepository">
+              <ownedComment xmi:id="_AZ5ecru6EeyMGLU9mLUo6Q">
+                <body>&#xD;
+Repository for handing routes&#xD;
+&#xD;
+@author Sasa Radovanovic&#xD;
+ *</body>
+              </ownedComment>
+              <generalization xmi:id="_AZywwLu6EeyMGLU9mLUo6Q" general="_AZDJ4Lu6EeyMGLU9mLUo6Q"/>
+              <ownedOperation xmi:id="_AV3TALu6EeyMGLU9mLUo6Q" name="findByDeparture">
+                <ownedParameter xmi:id="_AV36ELu6EeyMGLU9mLUo6Q" name="departure">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AV36Ebu6EeyMGLU9mLUo6Q" type="_AZaWQLu6EeyMGLU9mLUo6Q" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AV36Eru6EeyMGLU9mLUo6Q" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AV4hILu6EeyMGLU9mLUo6Q" name="findById">
+                <ownedParameter xmi:id="_AV5IMLu6EeyMGLU9mLUo6Q" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZz-4Lu6EeyMGLU9mLUo6Q" type="_AZaWQLu6EeyMGLU9mLUo6Q" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AZz-4bu6EeyMGLU9mLUo6Q" name="findAll">
+                <ownedParameter xmi:id="_AZ0l8Lu6EeyMGLU9mLUo6Q" name="pageable" type="_AZP-Mbu6EeyMGLU9mLUo6Q"/>
+                <ownedParameter xmi:id="_AZ1NALu6EeyMGLU9mLUo6Q" type="_AZPXIbu6EeyMGLU9mLUo6Q" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_AV8LgLu6EeyMGLU9mLUo6Q" name="ScheduledRouteRepository">
+              <ownedComment xmi:id="_AZ5ec7u6EeyMGLU9mLUo6Q">
+                <body>&#xD;
+Repository for handing scheduled routes&#xD;
+&#xD;
+@author Sasa Radovanovic&#xD;
+ *</body>
+              </ownedComment>
+              <generalization xmi:id="_AZ1NAbu6EeyMGLU9mLUo6Q" general="_AZDJ4Lu6EeyMGLU9mLUo6Q"/>
+              <ownedOperation xmi:id="_AV9ZoLu6EeyMGLU9mLUo6Q" name="findByNameLike">
+                <ownedParameter xmi:id="_AV9Zobu6EeyMGLU9mLUo6Q" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AV9Zoru6EeyMGLU9mLUo6Q" type="_AZensLu6EeyMGLU9mLUo6Q" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AV9Zo7u6EeyMGLU9mLUo6Q" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AV-nwLu6EeyMGLU9mLUo6Q" name="findById">
+                <ownedParameter xmi:id="_AV-nwbu6EeyMGLU9mLUo6Q" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_AZ4QULu6EeyMGLU9mLUo6Q" type="_AZensLu6EeyMGLU9mLUo6Q" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AV_O0Lu6EeyMGLU9mLUo6Q" name="findAll" visibility="package">
+                <ownedParameter xmi:id="_AV_14Lu6EeyMGLU9mLUo6Q" type="_AZensLu6EeyMGLU9mLUo6Q" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AV_14bu6EeyMGLU9mLUo6Q" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_AZ2bILu6EeyMGLU9mLUo6Q" name="findByDaysOfTheWeek">
+                <ownedParameter xmi:id="_AZ2bIbu6EeyMGLU9mLUo6Q" name="days" type="_AZNh8Lu6EeyMGLU9mLUo6Q"/>
+                <ownedParameter xmi:id="_AZ2bIru6EeyMGLU9mLUo6Q" type="_AZensLu6EeyMGLU9mLUo6Q" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AZ3CMLu6EeyMGLU9mLUo6Q" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ATetYLu6EeyMGLU9mLUo6Q" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ATfUcLu6EeyMGLU9mLUo6Q" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ATf7gLu6EeyMGLU9mLUo6Q" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_ATf7gbu6EeyMGLU9mLUo6Q" name="mongodb">
+            <packagedElement xmi:type="uml:Package" xmi:id="_ATgikLu6EeyMGLU9mLUo6Q" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_AZDJ4Lu6EeyMGLU9mLUo6Q" name="MongoRepository"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_AZRMULu6EeyMGLU9mLUo6Q" name="Query"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_AT49ELu6EeyMGLU9mLUo6Q" name="domain">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_AZPXIbu6EeyMGLU9mLUo6Q" name="Page"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_AZP-Mbu6EeyMGLU9mLUo6Q" name="Pageable"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_AT3H4Lu6EeyMGLU9mLUo6Q" name="bson">
+        <packagedElement xmi:type="uml:Package" xmi:id="_AT3u8Lu6EeyMGLU9mLUo6Q" name="types">
+          <packagedElement xmi:type="uml:Class" xmi:id="_AZOwEbu6EeyMGLU9mLUo6Q" name="ObjectId"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ATulALu6EeyMGLU9mLUo6Q" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ATvMELu6EeyMGLU9mLUo6Q" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_AZKeoLu6EeyMGLU9mLUo6Q" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_AZNh8Lu6EeyMGLU9mLUo6Q" name="ArrayList"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_AHijILu6EeyMGLU9mLUo6Q">
+      <eAnnotations xmi:id="_AHijIbu6EeyMGLU9mLUo6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_AHijIru6EeyMGLU9mLUo6Q" base_Package="__0ay0Lu5EeyMGLU9mLUo6Q">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_AZDw8Lu6EeyMGLU9mLUo6Q" base_Element="_AZDJ4Lu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Reference xmi:id="_AZIpcLu6EeyMGLU9mLUo6Q" base_Element="_AZEYALu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Reference xmi:id="_AZLswLu6EeyMGLU9mLUo6Q" base_Element="_AZKeoLu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Reference xmi:id="_AZM64Lu6EeyMGLU9mLUo6Q" base_Element="_AZMT0Lu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Reference xmi:id="_AZOwELu6EeyMGLU9mLUo6Q" base_Element="_AZNh8Lu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Reference xmi:id="_AZPXILu6EeyMGLU9mLUo6Q" base_Element="_AZOwEbu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Reference xmi:id="_AZP-MLu6EeyMGLU9mLUo6Q" base_Element="_AZPXIbu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Reference xmi:id="_AZQlQLu6EeyMGLU9mLUo6Q" base_Element="_AZP-Mbu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Reference xmi:id="_AZRMUbu6EeyMGLU9mLUo6Q" base_Element="_AZRMULu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Reference xmi:id="_AZRzYbu6EeyMGLU9mLUo6Q" base_Element="_AZRzYLu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Reference xmi:id="_AZcLcLu6EeyMGLU9mLUo6Q" base_Element="_AZaWQLu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Reference xmi:id="_AZfOwLu6EeyMGLU9mLUo6Q" base_Element="_AZensLu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Generics xmi:id="_AZlVYLu6EeyMGLU9mLUo6Q" genericsValue="Airplane, String" base_Element="_AZjgMLu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Generics xmi:id="_AZnKkLu6EeyMGLU9mLUo6Q" genericsValue="AirplaneType, String" base_Element="_AZmjgLu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Generics xmi:id="_AZoYsLu6EeyMGLU9mLUo6Q" genericsValue="Crew, String" base_Element="_AZnxoru6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Generics xmi:id="_AZqN4Lu6EeyMGLU9mLUo6Q" genericsValue="Crew" base_Element="_AZpm0Lu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Generics xmi:id="_AZsDELu6EeyMGLU9mLUo6Q" genericsValue="Crew" base_Element="_AZq08Lu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Generics xmi:id="_AZt4QLu6EeyMGLU9mLUo6Q" genericsValue="Crew" base_Element="_AZsqILu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Generics xmi:id="_AZvtcLu6EeyMGLU9mLUo6Q" genericsValue="Crew" base_Element="_AZufULu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AZw7kLu6EeyMGLU9mLUo6Q" base_Element="_AZwUgLu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Generics xmi:id="_AZxioLu6EeyMGLU9mLUo6Q" genericsValue="ObjectId" base_Element="_AZwUgbu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Annotations xmi:id="_AZyJsLu6EeyMGLU9mLUo6Q" base_Element="_AZwUgLu6EeyMGLU9mLUo6Q">
+    <annotations xmi:id="_AZyJsbu6EeyMGLU9mLUo6Q" name="Query">
+      <annotationParameters xmi:id="_AZyJsru6EeyMGLU9mLUo6Q" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_AZ5ecbu6EeyMGLU9mLUo6Q" value="&quot;{'_id' : { $in : ?0 }}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_AZzX0Lu6EeyMGLU9mLUo6Q" genericsValue="Route, String" base_Element="_AZywwLu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Generics xmi:id="_AZ0l8bu6EeyMGLU9mLUo6Q" genericsValue="Route" base_Element="_AZz-4bu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Generics xmi:id="_AZ10ELu6EeyMGLU9mLUo6Q" genericsValue="ScheduledRoute, String" base_Element="_AZ1NAbu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AZ3CMbu6EeyMGLU9mLUo6Q" base_Element="_AZ2bILu6EeyMGLU9mLUo6Q"/>
+  <UMLLabProfile:Annotations xmi:id="_AZ3pQLu6EeyMGLU9mLUo6Q" base_Element="_AZ2bILu6EeyMGLU9mLUo6Q">
+    <annotations xmi:id="_AZ3pQbu6EeyMGLU9mLUo6Q" name="SuppressWarnings">
+      <annotationParameters xmi:id="_AZ3pQru6EeyMGLU9mLUo6Q" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_AZ5edLu6EeyMGLU9mLUo6Q" value="&quot;rawtypes&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+</xmi:XMI>

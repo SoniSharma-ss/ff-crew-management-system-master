@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="__2BVULu5EeyMGLU9mLUo6Q">
+  <modelElement href="ff-crew-management-system-master_repository.uml#_ATpFcLu6EeyMGLU9mLUo6Q"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_As22sLu6EeyMGLU9mLUo6Q" targetItem="_As4r4Lu6EeyMGLU9mLUo6Q" sourceItem="_AszzYLu6EeyMGLU9mLUo6Q"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_At9p8bu6EeyMGLU9mLUo6Q" targetItem="_AuAtQLu6EeyMGLU9mLUo6Q" sourceItem="_At9p8Lu6EeyMGLU9mLUo6Q"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_AuJ3MLu6EeyMGLU9mLUo6Q" targetItem="_AuSaELu6EeyMGLU9mLUo6Q" sourceItem="_AuJQILu6EeyMGLU9mLUo6Q"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_AumjILu6EeyMGLU9mLUo6Q" targetItem="_AunxQLu6EeyMGLU9mLUo6Q" sourceItem="_Aul8ELu6EeyMGLU9mLUo6Q"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_AutQ0Lu6EeyMGLU9mLUo6Q" targetItem="_AuvGALu6EeyMGLU9mLUo6Q" sourceItem="_AuspwLu6EeyMGLU9mLUo6Q"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_AszzYLu6EeyMGLU9mLUo6Q" sourceConnectionVisual="_As22sLu6EeyMGLU9mLUo6Q" text="&#xD;&#xA;Repository for handing airplane database operations&#xD;&#xA;&#xD;&#xA;@author Sasa Radovanovic&#xD;&#xA; *" item="_As4r4Lu6EeyMGLU9mLUo6Q">
+    <modelElement href="ff-crew-management-system-master_repository.uml#_AZ43YLu6EeyMGLU9mLUo6Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_At9p8Lu6EeyMGLU9mLUo6Q" sourceConnectionVisual="_At9p8bu6EeyMGLU9mLUo6Q" text="&#xD;&#xA;Repository for handing airplane types&#xD;&#xA;&#xD;&#xA;@author Sasa Radovanovic&#xD;&#xA; *" item="_AuAtQLu6EeyMGLU9mLUo6Q">
+    <modelElement href="ff-crew-management-system-master_repository.uml#_AZ43Ybu6EeyMGLU9mLUo6Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_AuJQILu6EeyMGLU9mLUo6Q" sourceConnectionVisual="_AuJ3MLu6EeyMGLU9mLUo6Q" text="&#xD;&#xA;Repository for handing crew operations&#xD;&#xA;&#xD;&#xA;@author Sasa Radovanovic&#xD;&#xA; *" item="_AuSaELu6EeyMGLU9mLUo6Q">
+    <modelElement href="ff-crew-management-system-master_repository.uml#_AZ5ecLu6EeyMGLU9mLUo6Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Aul8ELu6EeyMGLU9mLUo6Q" sourceConnectionVisual="_AumjILu6EeyMGLU9mLUo6Q" text="&#xD;&#xA;Repository for handing routes&#xD;&#xA;&#xD;&#xA;@author Sasa Radovanovic&#xD;&#xA; *" item="_AunxQLu6EeyMGLU9mLUo6Q">
+    <modelElement href="ff-crew-management-system-master_repository.uml#_AZ5ecru6EeyMGLU9mLUo6Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_AuspwLu6EeyMGLU9mLUo6Q" sourceConnectionVisual="_AutQ0Lu6EeyMGLU9mLUo6Q" text="&#xD;&#xA;Repository for handing scheduled routes&#xD;&#xA;&#xD;&#xA;@author Sasa Radovanovic&#xD;&#xA; *" item="_AuvGALu6EeyMGLU9mLUo6Q">
+    <modelElement href="ff-crew-management-system-master_repository.uml#_AZ5ec7u6EeyMGLU9mLUo6Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_As4r4Lu6EeyMGLU9mLUo6Q" comments="_AszzYLu6EeyMGLU9mLUo6Q" targetConnectionVisual="_As22sLu6EeyMGLU9mLUo6Q" name="AirplaneRepository">
+    <modelElement href="ff-crew-management-system-master_repository.uml#_AVAXYLu6EeyMGLU9mLUo6Q"/>
+    <visualProperties xmi:id="_As4r4bu6EeyMGLU9mLUo6Q" position="-456.0,248.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_As4r4ru6EeyMGLU9mLUo6Q" label="+"/>
+    <operations xmi:id="_As4r47u6EeyMGLU9mLUo6Q" name="findByRegistrationLike">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AVEBwLu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_As4r5Lu6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_As4r5bu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_As4r5ru6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZl8cLu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_As4r57u6EeyMGLU9mLUo6Q" name="Airplane">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZEYALu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_As4r6Lu6EeyMGLU9mLUo6Q" name="registration">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVEBwbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_As4r6bu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_As4r6ru6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_As4r67u6EeyMGLU9mLUo6Q" name="findById">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AVF28Lu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_As4r7Lu6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_As4r7bu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_As4r7ru6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZl8cbu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_As4r77u6EeyMGLU9mLUo6Q" name="Airplane">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZEYALu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_As4r8Lu6EeyMGLU9mLUo6Q" name="id">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVF28bu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_As4r8bu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_As4r8ru6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AuAtQLu6EeyMGLU9mLUo6Q" comments="_At9p8Lu6EeyMGLU9mLUo6Q" targetConnectionVisual="_At9p8bu6EeyMGLU9mLUo6Q" name="AirplaneTypeRepository">
+    <modelElement href="ff-crew-management-system-master_repository.uml#_AVITMLu6EeyMGLU9mLUo6Q"/>
+    <visualProperties xmi:id="_AuAtQbu6EeyMGLU9mLUo6Q" position="-47.0,210.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AuAtQru6EeyMGLU9mLUo6Q" label="+"/>
+    <operations xmi:id="_AuAtQ7u6EeyMGLU9mLUo6Q" name="findByManufacturer">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AVaAALu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AuAtRLu6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuAtRbu6EeyMGLU9mLUo6Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AuAtRru6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVanELu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuAtR7u6EeyMGLU9mLUo6Q" name="AirplaneType">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZMT0Lu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuAtSLu6EeyMGLU9mLUo6Q" name="manufacturer">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVaAAbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuAtSbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuAtSru6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuAtS7u6EeyMGLU9mLUo6Q" name="findByType">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AVb1MLu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AuAtTLu6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuAtTbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AuAtTru6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZnKkbu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuAtT7u6EeyMGLU9mLUo6Q" name="AirplaneType">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZMT0Lu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuAtULu6EeyMGLU9mLUo6Q" name="type">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVb1Mbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuAtUbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuAtUru6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuAtU7u6EeyMGLU9mLUo6Q" name="findByTypeAndManufacturer">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AVdqYLu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AuAtVLu6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuAtVbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AuAtVru6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZnxoLu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuAtV7u6EeyMGLU9mLUo6Q" name="AirplaneType">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZMT0Lu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuAtWLu6EeyMGLU9mLUo6Q" name="type">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVdqYbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuAtWbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuAtWru6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AuAtW7u6EeyMGLU9mLUo6Q" name="manufacturer">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVdqYru6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuAtXLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuAtXbu6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuAtXru6EeyMGLU9mLUo6Q" name="findById">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AVe4gLu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AuAtX7u6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuAtYLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AuAtYbu6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZnxobu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuAtYru6EeyMGLU9mLUo6Q" name="AirplaneType">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZMT0Lu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuAtY7u6EeyMGLU9mLUo6Q" name="id">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVe4gbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuAtZLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuAtZbu6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AuvGALu6EeyMGLU9mLUo6Q" comments="_AuspwLu6EeyMGLU9mLUo6Q" targetConnectionVisual="_AutQ0Lu6EeyMGLU9mLUo6Q" name="ScheduledRouteRepository">
+    <modelElement href="ff-crew-management-system-master_repository.uml#_AV8LgLu6EeyMGLU9mLUo6Q"/>
+    <visualProperties xmi:id="_AuvGAbu6EeyMGLU9mLUo6Q" position="-1680.0,210.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AuvGAru6EeyMGLU9mLUo6Q" label="+"/>
+    <operations xmi:id="_AuvGA7u6EeyMGLU9mLUo6Q" name="findByNameLike">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AV9ZoLu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AuvGBLu6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuvGBbu6EeyMGLU9mLUo6Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AuvGBru6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AV9Zoru6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuvGB7u6EeyMGLU9mLUo6Q" name="ScheduledRoute">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZensLu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuvGCLu6EeyMGLU9mLUo6Q" name="name">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AV9Zobu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuvGCbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuvGCru6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuvGC7u6EeyMGLU9mLUo6Q" name="findById">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AV-nwLu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AuvGDLu6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuvGDbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AuvGDru6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZ4QULu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuvGD7u6EeyMGLU9mLUo6Q" name="ScheduledRoute">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZensLu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuvGELu6EeyMGLU9mLUo6Q" name="id">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AV-nwbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuvGEbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuvGEru6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuvGE7u6EeyMGLU9mLUo6Q" name="findAll">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AV_O0Lu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AuvGFLu6EeyMGLU9mLUo6Q" label="~"/>
+      <cardinality xmi:id="_AuvGFbu6EeyMGLU9mLUo6Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AuvGFru6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AV_14Lu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuvGF7u6EeyMGLU9mLUo6Q" name="ScheduledRoute">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZensLu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AuvGGLu6EeyMGLU9mLUo6Q" name="findByDaysOfTheWeek">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AZ2bILu6EeyMGLU9mLUo6Q"/>
+      <stereotypes xmi:id="_AuvGGbu6EeyMGLU9mLUo6Q" name="LegacyStyledElement">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZ3CMbu6EeyMGLU9mLUo6Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AuvGGru6EeyMGLU9mLUo6Q" name="Annotations">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZ3pQLu6EeyMGLU9mLUo6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_AuvGG7u6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuvGHLu6EeyMGLU9mLUo6Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AuvGHbu6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZ2bIru6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuvGHru6EeyMGLU9mLUo6Q" name="ScheduledRoute">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZensLu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuvGH7u6EeyMGLU9mLUo6Q" name="days">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZ2bIbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuvGILu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuvGIbu6EeyMGLU9mLUo6Q" name="ArrayList">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZNh8Lu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AunxQLu6EeyMGLU9mLUo6Q" comments="_Aul8ELu6EeyMGLU9mLUo6Q" targetConnectionVisual="_AumjILu6EeyMGLU9mLUo6Q" name="RouteRepository">
+    <modelElement href="ff-crew-management-system-master_repository.uml#_AV2r8Lu6EeyMGLU9mLUo6Q"/>
+    <visualProperties xmi:id="_AunxQbu6EeyMGLU9mLUo6Q" position="522.0,88.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AunxQru6EeyMGLU9mLUo6Q" label="+"/>
+    <operations xmi:id="_AunxQ7u6EeyMGLU9mLUo6Q" name="findByDeparture">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AV3TALu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AunxRLu6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AunxRbu6EeyMGLU9mLUo6Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AunxRru6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AV36Ebu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AunxR7u6EeyMGLU9mLUo6Q" name="Route">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZaWQLu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AunxSLu6EeyMGLU9mLUo6Q" name="departure">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AV36ELu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AunxSbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AunxSru6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AunxS7u6EeyMGLU9mLUo6Q" name="findById">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AV4hILu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AunxTLu6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AunxTbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AunxTru6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZz-4Lu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AunxT7u6EeyMGLU9mLUo6Q" name="Route">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZaWQLu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AunxULu6EeyMGLU9mLUo6Q" name="id">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AV5IMLu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AunxUbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AunxUru6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AunxU7u6EeyMGLU9mLUo6Q" name="findAll">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AZz-4bu6EeyMGLU9mLUo6Q"/>
+      <stereotypes xmi:id="_AunxVLu6EeyMGLU9mLUo6Q" name="Generics">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZ0l8bu6EeyMGLU9mLUo6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_AunxVbu6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AunxVru6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AunxV7u6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZ1NALu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AunxWLu6EeyMGLU9mLUo6Q" name="Page">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZPXIbu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AunxWbu6EeyMGLU9mLUo6Q" name="pageable">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZ0l8Lu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AunxWru6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuoYULu6EeyMGLU9mLUo6Q" name="Pageable">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZP-Mbu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AuSaELu6EeyMGLU9mLUo6Q" comments="_AuJQILu6EeyMGLU9mLUo6Q" targetConnectionVisual="_AuJ3MLu6EeyMGLU9mLUo6Q" name="CrewRepository">
+    <modelElement href="ff-crew-management-system-master_repository.uml#_AVii4Lu6EeyMGLU9mLUo6Q"/>
+    <visualProperties xmi:id="_AuTBILu6EeyMGLU9mLUo6Q" position="-852.0,91.0" size="280.0,247.0"/>
+    <visibility xmi:id="_AuTBIbu6EeyMGLU9mLUo6Q" label="+"/>
+    <operations xmi:id="_AuTBIru6EeyMGLU9mLUo6Q" name="findByFirstNameLike">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AVk_ILu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AuTBI7u6EeyMGLU9mLUo6Q" label="~"/>
+      <cardinality xmi:id="_AuTBJLu6EeyMGLU9mLUo6Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AuTBJbu6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVmNQLu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuTBJru6EeyMGLU9mLUo6Q" name="Crew">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZRzYLu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuTBJ7u6EeyMGLU9mLUo6Q" name="name">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVk_Ibu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBKLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBKbu6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuTBKru6EeyMGLU9mLUo6Q" name="findByLastNameLike">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AVoCcLu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AuTBK7u6EeyMGLU9mLUo6Q" label="~"/>
+      <cardinality xmi:id="_AuTBLLu6EeyMGLU9mLUo6Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AuTBLbu6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVoCcru6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuTBLru6EeyMGLU9mLUo6Q" name="Crew">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZRzYLu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuTBL7u6EeyMGLU9mLUo6Q" name="lastName">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVoCcbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBMLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBMbu6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuTBMru6EeyMGLU9mLUo6Q" name="findByCrewType">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AVpQkLu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AuTBM7u6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuTBNLu6EeyMGLU9mLUo6Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AuTBNbu6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVpQkru6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuTBNru6EeyMGLU9mLUo6Q" name="Crew">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZRzYLu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuTBN7u6EeyMGLU9mLUo6Q" name="crewType">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVpQkbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBOLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBObu6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuTBOru6EeyMGLU9mLUo6Q" name="findByCountryOfOriginLike">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AVqesLu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AuTBO7u6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuTBPLu6EeyMGLU9mLUo6Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AuTBPbu6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVqesru6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuTBPru6EeyMGLU9mLUo6Q" name="Crew">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZRzYLu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuTBP7u6EeyMGLU9mLUo6Q" name="countryOfOrigin">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVqesbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBQLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBQbu6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuTBQru6EeyMGLU9mLUo6Q" name="findByUsername">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AVrFwLu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AuTBQ7u6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuTBRLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AuTBRbu6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZo_wLu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuTBRru6EeyMGLU9mLUo6Q" name="Crew">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZRzYLu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuTBR7u6EeyMGLU9mLUo6Q" name="username">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVrFwbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBSLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBSbu6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuTBSru6EeyMGLU9mLUo6Q" name="countByCrewType">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AVuJELu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AuTBS7u6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuTBTLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AuTBTbu6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVuwILu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuTBTru6EeyMGLU9mLUo6Q" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuTBT7u6EeyMGLU9mLUo6Q" name="type">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVuJEbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBULu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBUbu6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuTBUru6EeyMGLU9mLUo6Q" name="findById">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AVvXMLu6EeyMGLU9mLUo6Q"/>
+      <visibility xmi:id="_AuTBU7u6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuTBVLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AuTBVbu6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZvtcru6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuTBVru6EeyMGLU9mLUo6Q" name="Crew">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZRzYLu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuTBV7u6EeyMGLU9mLUo6Q" name="id">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AVvXMbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBWLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBWbu6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuTBWru6EeyMGLU9mLUo6Q" name="findAllByCrewType">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AZpm0Lu6EeyMGLU9mLUo6Q"/>
+      <stereotypes xmi:id="_AuTBW7u6EeyMGLU9mLUo6Q" name="Generics">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZqN4Lu6EeyMGLU9mLUo6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_AuTBXLu6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuTBXbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AuTBXru6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZqN4bu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuTBX7u6EeyMGLU9mLUo6Q" name="Page">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZPXIbu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuTBYLu6EeyMGLU9mLUo6Q" name="type">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZpm0bu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBYbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBYru6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AuTBY7u6EeyMGLU9mLUo6Q" name="pageable">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZpm0ru6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBZLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBZbu6EeyMGLU9mLUo6Q" name="Pageable">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZP-Mbu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuTBZru6EeyMGLU9mLUo6Q" name="findAllByCrewTypeAndFirstNameLike">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AZq08Lu6EeyMGLU9mLUo6Q"/>
+      <stereotypes xmi:id="_AuTBZ7u6EeyMGLU9mLUo6Q" name="Generics">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZsDELu6EeyMGLU9mLUo6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_AuTBaLu6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuTBabu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AuTBaru6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZsDEbu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuTBa7u6EeyMGLU9mLUo6Q" name="Page">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZPXIbu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuTBbLu6EeyMGLU9mLUo6Q" name="type">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZq08bu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBbbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBbru6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AuTBb7u6EeyMGLU9mLUo6Q" name="firstName">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZrcALu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBcLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBcbu6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AuTBcru6EeyMGLU9mLUo6Q" name="pageable">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZrcAbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBc7u6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBdLu6EeyMGLU9mLUo6Q" name="Pageable">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZP-Mbu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuTBdbu6EeyMGLU9mLUo6Q" name="findAllByCrewTypeAndLastNameLike">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AZsqILu6EeyMGLU9mLUo6Q"/>
+      <stereotypes xmi:id="_AuTBdru6EeyMGLU9mLUo6Q" name="Generics">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZt4QLu6EeyMGLU9mLUo6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_AuTBd7u6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuTBeLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AuTBebu6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZt4Qbu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuTBeru6EeyMGLU9mLUo6Q" name="Page">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZPXIbu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuTBe7u6EeyMGLU9mLUo6Q" name="type">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZsqIbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBfLu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBfbu6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AuTBfru6EeyMGLU9mLUo6Q" name="lastName">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZsqIru6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBf7u6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBgLu6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AuTBgbu6EeyMGLU9mLUo6Q" name="pageable">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZtRMLu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBgru6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBg7u6EeyMGLU9mLUo6Q" name="Pageable">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZP-Mbu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuTBhLu6EeyMGLU9mLUo6Q" name="findAllByCrewTypeAndCompanyIdLike">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AZufULu6EeyMGLU9mLUo6Q"/>
+      <stereotypes xmi:id="_AuTBhbu6EeyMGLU9mLUo6Q" name="Generics">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZvtcLu6EeyMGLU9mLUo6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_AuTBhru6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuTBh7u6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AuTBiLu6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZvtcbu6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuTBibu6EeyMGLU9mLUo6Q" name="Page">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZPXIbu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuTBiru6EeyMGLU9mLUo6Q" name="type">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZufUbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBi7u6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBjLu6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AuTBjbu6EeyMGLU9mLUo6Q" name="companyId">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZvGYLu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBjru6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBj7u6EeyMGLU9mLUo6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AuTBkLu6EeyMGLU9mLUo6Q" name="pageable">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZvGYbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBkbu6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBkru6EeyMGLU9mLUo6Q" name="Pageable">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZP-Mbu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AuTBk7u6EeyMGLU9mLUo6Q" name="findAllById">
+      <modelElement href="ff-crew-management-system-master_repository.uml#_AZwUgLu6EeyMGLU9mLUo6Q"/>
+      <stereotypes xmi:id="_AuTBlLu6EeyMGLU9mLUo6Q" name="LegacyStyledElement">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZw7kLu6EeyMGLU9mLUo6Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AuTBlbu6EeyMGLU9mLUo6Q" name="Annotations">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZyJsLu6EeyMGLU9mLUo6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_AuTBlru6EeyMGLU9mLUo6Q" label="+"/>
+      <cardinality xmi:id="_AuTBl7u6EeyMGLU9mLUo6Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AuTBmLu6EeyMGLU9mLUo6Q">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZwUgru6EeyMGLU9mLUo6Q"/>
+        <type xmi:id="_AuTBmbu6EeyMGLU9mLUo6Q" name="Crew">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZRzYLu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AuTBmru6EeyMGLU9mLUo6Q" name="ids">
+        <modelElement href="ff-crew-management-system-master_repository.uml#_AZwUgbu6EeyMGLU9mLUo6Q"/>
+        <cardinality xmi:id="_AuTBm7u6EeyMGLU9mLUo6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_AuTBnLu6EeyMGLU9mLUo6Q" name="ArrayList">
+          <modelElement href="ff-crew-management-system-master_repository.uml#_AZNh8Lu6EeyMGLU9mLUo6Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
